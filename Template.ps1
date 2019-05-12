@@ -93,5 +93,6 @@ ForEach($object in $objects){
             }
         }
     }
+    Get-OhBeTasks -ServiceReqNumber $object.ServiceReqNumber
 }
 Remove-PSSession $Session

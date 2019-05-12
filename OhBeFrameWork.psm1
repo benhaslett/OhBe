@@ -119,7 +119,7 @@ function Get-OhBeRequest{
 function Get-OhBeTasks {
     [CmdletBinding()]
     param(
-        # Parameter help description
+        # Provide teh service request number
         [Parameter(Mandatory=$true)]
         [string]
         $ServiceReqNumber
@@ -135,6 +135,8 @@ function Get-OhBeTasks {
         Write-OhBeLog -log $Global:log -status "Problem Finding Tasks $_" -user $global:object.createdby -RequestNumber $ServiceReqNumber
         return
     }
+    #not sure how wise this is... If we get a list of tasks that is already completed we fire off an email and set the service request to fullfilled.
+    #works well in single task requests but can see it getting messy in Multi task proccesses.
     If($tasks.status -contains 'Assigned'){
         $tasks | Where-Object {$_.status -eq 'Assigned' -and $_.Owner -eq 'oh.be' } #| Select-Object -first 1
     }

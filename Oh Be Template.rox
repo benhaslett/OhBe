@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Offerings TypeCode="Object" IsList="True" ElementType="HEAT.ServiceCatalog.Models.Offering.OfferingDefinitionZipData">
+ <RequestOffering TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Offering.OfferingDefinitionZipData" FRS_ID="FA27EB46084441798C816E794946D800">
+  <ServiceRequestTemplate TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.ServiceReqTemplate.ServiceReqTemplateData" FRS_ID="FA27EB46084441798C816E794946D800">
+   <RecId>FA27EB46084441798C816E794946D800</RecId>
+   <CreatedBy>Ben.Haslett</CreatedBy>
+   <CreatedDateTime TypeCode="DateTime">2019-05-12T11:09:39.0000000Z</CreatedDateTime>
+   <LastModBy>Ben.Haslett</LastModBy>
+   <LastModDateTime TypeCode="DateTime">2019-05-12T11:11:32.0000000Z</LastModDateTime>
+   <Name>Oh Be Template</Name>
+   <Item></Item>
+   <Description></Description>
+   <IconName></IconName>
+   <Service_RecId>225EA4F3A6294462B1F97922D5429B57</Service_RecId>
+   <Service_Category>CI.Service</Service_Category>
+   <Price TypeCode="Decimal">0.0000</Price>
+   <RecurringPrice TypeCode="Decimal">0.0000</RecurringPrice>
+   <RecurringPeriod TypeCode="Int32">30</RecurringPeriod>
+   <DeliveryCommitment TypeCode="Int32">1440</DeliveryCommitment>
+   <ColumnsCount TypeCode="Int32">1</ColumnsCount>
+   <Status>Design</Status>
+   <VersionInformation></VersionInformation>
+   <IsClean TypeCode="Boolean">False</IsClean>
+   <ConfigOptions>{"configData":{"hidePrice":false,"enableCancel":false,"enableEditing":false,"hideDeliveryTime":false,"usePriceList":false,"financialTransaction":false,"hasPriceData":false,"alignRowsInColumns":false,"showColumnNumber":false}}</ConfigOptions>
+   <LayoutDefinition>null</LayoutDefinition>
+   <LayoutName></LayoutName>
+   <IsFormOffering TypeCode="Boolean">False</IsFormOffering>
+   <IsAllowAnonymousSubmit TypeCode="Boolean">False</IsAllowAnonymousSubmit>
+   <IsExternal TypeCode="Boolean">False</IsExternal>
+   <Categories TypeCode="Object" IsList="True" ElementType="String">
+    <Element>9BBFEAC1AFF8454C82E63E9C16F96D73</Element>
+   </Categories>
+   <Parameters TypeCode="Object" IsList="True" ElementType="HEAT.ServiceCatalog.Models.ServiceReqTemplateParam.ServiceReqTemplateParam">
+    <ServiceRequestTemplateParameter TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.ServiceReqTemplateParam.ServiceReqTemplateParam" FRS_ID="8E39D56C8F034A30BCB66272C288FEB1">
+     <RecId>8E39D56C8F034A30BCB66272C288FEB1</RecId>
+     <CreatedBy>Ben.Haslett</CreatedBy>
+     <CreatedDateTime TypeCode="DateTime">2019-05-12T11:09:40.0000000Z</CreatedDateTime>
+     <LastModBy>Ben.Haslett</LastModBy>
+     <LastModDateTime TypeCode="DateTime">2019-05-12T11:11:32.0000000Z</LastModDateTime>
+     <PriceExpression></PriceExpression>
+     <ReadOnlyExpression>$(false)</ReadOnlyExpression>
+     <AutoFillExpression></AutoFillExpression>
+     <AutoFillOnlyWhenEmpty TypeCode="Boolean">False</AutoFillOnlyWhenEmpty>
+     <LineBreak TypeCode="Boolean">False</LineBreak>
+     <RequiresSubscription TypeCode="Boolean">False</RequiresSubscription>
+     <Price TypeCode="Decimal">0.0000</Price>
+     <RecurringPrice TypeCode="Decimal">0.0000</RecurringPrice>
+     <RecurringPeriod TypeCode="Int32">30</RecurringPeriod>
+     <IsCalculated TypeCode="Boolean">False</IsCalculated>
+     <RequiredExpression>$(false)</RequiredExpression>
+     <Description>By clicking here I certify that I am authorised to make this request</Description>
+     <DisplayName>Authorisation</DisplayName>
+     <Name>Authorisation</Name>
+     <SequenceNumber TypeCode="Int32">2</SequenceNumber>
+     <DisplayType>checkbox</DisplayType>
+     <ValidationListRecId></ValidationListRecId>
+     <TriggerFields></TriggerFields>
+     <ValidationConstraints></ValidationConstraints>
+     <ValueExpression></ValueExpression>
+     <VisibilityExpression></VisibilityExpression>
+     <ConfigOptions>{"configData":{"height":0,"topMargin":0,"bottomMargin":0,"preserveSpace":false,"generateAutoText":false,"singleSelect":false,"imageWidth":48,"showPricesForAllItems":false,"imageHeight":48,"withAdvancedSearch":false,"typeAheadChars":3,"enableHint":false,"usePriceList":false,"noPriceExclude":false,"defaultValueRadioVal":"none","priceQuantityField":""}}</ConfigOptions>
+     <HelpText></HelpText>
+     <HelpLink></HelpLink>
+     <FieldTranslations TypeCode="Object" IsList="True" ElementType="DataLayer.FieldTranslation">
+      <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+       <FieldName>Description</FieldName>
+       <Translations TypeCode="Object" IsList="True" ElementType="DataLayer.Translation">
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>de</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>es</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>fr</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>nl</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>pt-BR</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ru</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ja</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture></Culture>
+         <Value>By clicking here I certify that I am authorised to make this request</Value>
+        </Translation>
+       </Translations>
+      </FieldTranslation>
+      <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+       <FieldName>DisplayName</FieldName>
+       <Translations TypeCode="Object" IsList="True" ElementType="DataLayer.Translation">
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>de</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>es</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>fr</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>nl</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>pt-BR</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ru</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ja</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture></Culture>
+         <Value>Authorisation</Value>
+        </Translation>
+       </Translations>
+      </FieldTranslation>
+     </FieldTranslations>
+    </ServiceRequestTemplateParameter>
+    <ServiceRequestTemplateParameter TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.ServiceReqTemplateParam.ServiceReqTemplateParam" FRS_ID="FFB8A6C40A8345D3B1749AD89D2E5815">
+     <RecId>FFB8A6C40A8345D3B1749AD89D2E5815</RecId>
+     <CreatedBy>Ben.Haslett</CreatedBy>
+     <CreatedDateTime TypeCode="DateTime">2019-05-12T11:09:40.0000000Z</CreatedDateTime>
+     <LastModBy>Ben.Haslett</LastModBy>
+     <LastModDateTime TypeCode="DateTime">2019-05-12T11:11:32.0000000Z</LastModDateTime>
+     <PriceExpression></PriceExpression>
+     <ReadOnlyExpression>$(false)</ReadOnlyExpression>
+     <AutoFillExpression></AutoFillExpression>
+     <AutoFillOnlyWhenEmpty TypeCode="Boolean">False</AutoFillOnlyWhenEmpty>
+     <LineBreak TypeCode="Boolean">False</LineBreak>
+     <RequiresSubscription TypeCode="Boolean">False</RequiresSubscription>
+     <Price TypeCode="Decimal">0.0000</Price>
+     <RecurringPrice TypeCode="Decimal">0.0000</RecurringPrice>
+     <RecurringPeriod TypeCode="Int32">30</RecurringPeriod>
+     <IsCalculated TypeCode="Boolean">False</IsCalculated>
+     <RequiredExpression>$(true)</RequiredExpression>
+     <Description>Select the user name you want to provision</Description>
+     <DisplayName>User to Provision</DisplayName>
+     <Name>user</Name>
+     <SequenceNumber TypeCode="Int32">1</SequenceNumber>
+     <DisplayType>combo</DisplayType>
+     <ValidationListRecId>c67a22b626694ff0bfdd430b7081f689</ValidationListRecId>
+     <TriggerFields></TriggerFields>
+     <ValidationConstraints>[]</ValidationConstraints>
+     <ValueExpression></ValueExpression>
+     <VisibilityExpression></VisibilityExpression>
+     <ConfigOptions>{"configData":{"width":250,"height":0,"topMargin":0,"bottomMargin":0,"preserveSpace":false,"generateAutoText":false,"singleSelect":false,"imageWidth":48,"showPricesForAllItems":false,"imageHeight":48,"withAdvancedSearch":false,"typeAheadChars":3,"enableHint":false,"usePriceList":false,"noPriceExclude":false,"defaultValueRadioVal":"none","validationListAdditionalConfig":[{"boName":"Employee#","fieldName":"DisplayName","fieldDisplayName":"Display Name","relationTag":"","additionalCBObjectValue":"","fieldType":2,"isMandatory":true},{"boName":"Employee#","fieldName":"LoginID","fieldDisplayName":"LoginID","relationTag":"","additionalCBObjectValue":"","fieldType":0,"isMandatory":true}],"priceQuantityField":""}}</ConfigOptions>
+     <HelpText></HelpText>
+     <HelpLink></HelpLink>
+     <FieldTranslations TypeCode="Object" IsList="True" ElementType="DataLayer.FieldTranslation">
+      <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+       <FieldName>Description</FieldName>
+       <Translations TypeCode="Object" IsList="True" ElementType="DataLayer.Translation">
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>de</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>es</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>fr</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>nl</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>pt-BR</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ru</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ja</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture></Culture>
+         <Value>Select the user name you want to provision</Value>
+        </Translation>
+       </Translations>
+      </FieldTranslation>
+      <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+       <FieldName>DisplayName</FieldName>
+       <Translations TypeCode="Object" IsList="True" ElementType="DataLayer.Translation">
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>de</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>es</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>fr</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>nl</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>pt-BR</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ru</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture>ja</Culture>
+         <Value></Value>
+        </Translation>
+        <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+         <Culture></Culture>
+         <Value>User to Provision</Value>
+        </Translation>
+       </Translations>
+      </FieldTranslation>
+     </FieldTranslations>
+    </ServiceRequestTemplateParameter>
+   </Parameters>
+   <AccessItems TypeCode="Object" IsList="True" ElementType="HEAT.ServiceCatalog.Models.Access.AccessItem">
+    <AccessItem TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Access.AccessItem" FRS_ID="45CB538B1D3A4E0696AB59F769890A96">
+     <RecId>45CB538B1D3A4E0696AB59F769890A96</RecId>
+     <CreatedBy>Ben.Haslett</CreatedBy>
+     <CreatedDateTime TypeCode="DateTime">2019-05-12T11:09:40.0000000Z</CreatedDateTime>
+     <LastModBy>Ben.Haslett</LastModBy>
+     <LastModDateTime TypeCode="DateTime">2019-05-12T11:11:32.0000000Z</LastModDateTime>
+     <CanSubmit TypeCode="Boolean">True</CanSubmit>
+     <CanEditRequest TypeCode="Boolean">True</CanEditRequest>
+     <CanDeleteRequest TypeCode="Boolean">True</CanDeleteRequest>
+     <CanEdit TypeCode="Boolean">True</CanEdit>
+     <CanDelete TypeCode="Boolean">True</CanDelete>
+     <CanCopy TypeCode="Boolean">True</CanCopy>
+     <RelatedObjects TypeCode="Object" IsMap="True" MapKeyType="String">
+      <Name TypeCode="Object" Key="Frs_CompositeContract_Entity#.EntityAccess">
+       <RelatedObject TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Access.AccessToRelatedObject">
+        <IsIncludeSubtree TypeCode="Boolean">True</IsIncludeSubtree>
+        <Relationship>Frs_CompositeContract_Entity#.EntityAccess</Relationship>
+        <Items TypeCode="Object" IsList="True" ElementType="HEAT.ServiceCatalog.Models.Access.AccessValue" />
+       </RelatedObject>
+      </Name>
+      <Name TypeCode="Object" Key="Location#.Location">
+       <RelatedObject TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Access.AccessToRelatedObject">
+        <IsIncludeSubtree TypeCode="Boolean">True</IsIncludeSubtree>
+        <Relationship>Location#.Location</Relationship>
+        <Items TypeCode="Object" IsList="True" ElementType="HEAT.ServiceCatalog.Models.Access.AccessValue">
+         <AccessValue TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Access.AccessValue">
+          <RecId>8957643E494C46E98EA05EA83C6A439E</RecId>
+          <DisplayName>Service Delivery</DisplayName>
+         </AccessValue>
+        </Items>
+       </RelatedObject>
+      </Name>
+     </RelatedObjects>
+    </AccessItem>
+   </AccessItems>
+   <RelatedItems TypeCode="Object" IsList="True" ElementType="HEAT.ServiceCatalog.Models.ServiceReqTemplate.RelatedItem" />
+   <DeliveryItems TypeCode="Object" IsList="True" ElementType="DataLayer.Financial.PriceListItem" />
+   <FulfillmentAction TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Fulfillment.FulfillmentWorkflowPlan" FRS_ID="20AED6AF877F48E9A3F9E943A976B4F8">
+    <RecId>20AED6AF877F48E9A3F9E943A976B4F8</RecId>
+    <CreatedBy>Ben.Haslett</CreatedBy>
+    <CreatedDateTime TypeCode="DateTime">2019-05-12T11:09:42.0000000Z</CreatedDateTime>
+    <LastModBy>Ben.Haslett</LastModBy>
+    <LastModDateTime TypeCode="DateTime">2019-05-12T11:11:22.0000000Z</LastModDateTime>
+    <FulfillmentPlanType>Workflow</FulfillmentPlanType>
+    <WorkflowId>c221cb1c5b2f42a69920b8f8d2d93736</WorkflowId>
+   </FulfillmentAction>
+   <FieldTranslations TypeCode="Object" IsList="True" ElementType="DataLayer.FieldTranslation">
+    <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+     <FieldName>Description</FieldName>
+     <Translations TypeCode="Object" IsList="True" ElementType="DataLayer.Translation">
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>de</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>es</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>fr</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>nl</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>pt-BR</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>ru</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>ja</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture></Culture>
+       <Value></Value>
+      </Translation>
+     </Translations>
+    </FieldTranslation>
+    <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+     <FieldName>Name</FieldName>
+    </FieldTranslation>
+    <FieldTranslation TypeCode="Object" CLR_Type="DataLayer.FieldTranslation">
+     <FieldName>Item</FieldName>
+     <Translations TypeCode="Object" IsList="True" ElementType="DataLayer.Translation">
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>de</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>es</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>fr</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>nl</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>pt-BR</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>ru</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture>ja</Culture>
+       <Value></Value>
+      </Translation>
+      <Translation TypeCode="Object" CLR_Type="DataLayer.Translation">
+       <Culture></Culture>
+       <Value></Value>
+      </Translation>
+     </Translations>
+    </FieldTranslation>
+   </FieldTranslations>
+  </ServiceRequestTemplate>
+  <Attachments TypeCode="Object" IsList="True" ElementType="HEAT.Attachments.Models.AttachmentRecordBinary" />
+  <WorkflowDefinition>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;WorkflowVersionInformation&gt;&lt;WorkflowDefinition&gt;&lt;Name&gt;Oh Be Template Request form&lt;/Name&gt;&lt;Details&gt;&amp;lt;?xml version='1.0' encoding='utf-16le' ?&amp;gt;&amp;lt;scenario xmlns='http://frontrange.com/saas/workflow/Bpe_workflow.xsd'&amp;gt;&amp;lt;id&amp;gt;90478F6DB457462D8F67B0874CE142C6&amp;lt;/id&amp;gt;&amp;lt;title&amp;gt;new scenario&amp;lt;/title&amp;gt;&amp;lt;context&amp;gt;&amp;lt;category&amp;gt;businessObjectType&amp;lt;/category&amp;gt;&amp;lt;value&amp;gt;ServiceReq&amp;lt;/value&amp;gt;&amp;lt;/context&amp;gt;&amp;lt;scenarioProperties/&amp;gt;&amp;lt;blocks&amp;gt;&amp;lt;block&amp;gt;&amp;lt;id&amp;gt;939CBE7671D747848C746362D76A7BB3&amp;lt;/id&amp;gt;&amp;lt;type&amp;gt;start&amp;lt;/type&amp;gt;&amp;lt;title/&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;85&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;67&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;blockProperties/&amp;gt;&amp;lt;exits&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;ok&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fbd5931-ff2c-4bf0-a940-4398f1a81da2&amp;lt;/id&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;10&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;20&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links&amp;gt;&amp;lt;link&amp;gt;&amp;lt;id&amp;gt;EFC73678CEAF4195BC62D278C3E741A7&amp;lt;/id&amp;gt;&amp;lt;blockId&amp;gt;1034505DE3D243E28121691B4C930EBA&amp;lt;/blockId&amp;gt;&amp;lt;/link&amp;gt;&amp;lt;/links&amp;gt;&amp;lt;condition/&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;/exits&amp;gt;&amp;lt;/block&amp;gt;&amp;lt;block&amp;gt;&amp;lt;id&amp;gt;00740AD1B44B44D7B541F706420915BD&amp;lt;/id&amp;gt;&amp;lt;type&amp;gt;task&amp;lt;/type&amp;gt;&amp;lt;title&amp;gt;Check and Approve - A Thing - $(user) &amp;lt;/title&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;267&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;60&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;blockProperties&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;summaryblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Check and Approve - A Thing - $(user) &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;summary&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;detailsblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Check and Approve - A Thing - $(user) &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;details&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;teamblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Service Delivery&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;team&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;assigneeblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt; &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;assignee&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;typeblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Internal Task&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;type&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;priorityblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Value&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;ispriorityfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;1&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;priority&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;							&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;ispriorityfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;user&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;priorityfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;duedate&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Field&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;isfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt; &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;duedatefield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;							&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;isfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;duedatedays&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;duedatehours&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;duedateminutes&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/blockProperties&amp;gt;&amp;lt;exits&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;accepted&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;0&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Accepted&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;assigned&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;e70b7eaf-5881-49a6-a1f8-7345d5e52b19&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;20&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_e70b7eaf-5881-49a6-a1f8-7345d5e52b19&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Assigned&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;logged&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;e70b7eaf-5881-49a6-a1f8-7345d5e52b28&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;40&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_e70b7eaf-5881-49a6-a1f8-7345d5e52b28&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Logged&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;completed&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fca6b32-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;60&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links&amp;gt;&amp;lt;link&amp;gt;&amp;lt;id&amp;gt;D8B7A89109D442CC8689CAB25B1FC408&amp;lt;/id&amp;gt;&amp;lt;blockId&amp;gt;3CC278F4DE0E418DB69C7C221BA5C6B8&amp;lt;/blockId&amp;gt;&amp;lt;/link&amp;gt;&amp;lt;/links&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b32-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Completed&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;cancelled&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fca6b31-ff2c-4bf0-a940-4598f1a84da2&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;80&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links&amp;gt;&amp;lt;link&amp;gt;&amp;lt;id&amp;gt;C963C8BE1CB043009904295AAA4BB705&amp;lt;/id&amp;gt;&amp;lt;blockId&amp;gt;AD67592A17224391B16344A91DF2978A&amp;lt;/blockId&amp;gt;&amp;lt;/link&amp;gt;&amp;lt;/links&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff2c-4bf0-a940-4598f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Cancelled&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;timedout&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;85141fd4-664e-4ae4-93dc-1498f561b6bf&amp;lt;/id&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;100&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition/&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;/exits&amp;gt;&amp;lt;/block&amp;gt;&amp;lt;block&amp;gt;&amp;lt;id&amp;gt;3CC278F4DE0E418DB69C7C221BA5C6B8&amp;lt;/id&amp;gt;&amp;lt;type&amp;gt;task&amp;lt;/type&amp;gt;&amp;lt;title&amp;gt;Do a thing - $(user)&amp;lt;/title&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;535&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;55&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;blockProperties&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;summaryblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Do a thing - $(user)&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;summary&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;detailsblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Do a thing - $(user)&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;details&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;teamblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Service Delivery&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;team&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;assigneeblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;oh.be&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;assignee&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;typeblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Internal Task&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;type&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;priorityblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Value&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;ispriorityfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;1&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;priority&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;							&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;ispriorityfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;user&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;priorityfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;duedate&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Field&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;isfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt; &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;duedatefield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;							&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;isfield&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;duedatedays&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;duedatehours&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;duedateminutes&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/blockProperties&amp;gt;&amp;lt;exits&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;accepted&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;0&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Accepted&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;assigned&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;e70b7eaf-5881-49a6-a1f8-7345d5e52b19&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;20&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_e70b7eaf-5881-49a6-a1f8-7345d5e52b19&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Assigned&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;logged&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;e70b7eaf-5881-49a6-a1f8-7345d5e52b28&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;40&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_e70b7eaf-5881-49a6-a1f8-7345d5e52b28&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Logged&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;completed&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fca6b32-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;60&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links&amp;gt;&amp;lt;link&amp;gt;&amp;lt;id&amp;gt;DEF4B66DC4E44F61A3DFB10E21B3A944&amp;lt;/id&amp;gt;&amp;lt;blockId&amp;gt;AD67592A17224391B16344A91DF2978A&amp;lt;/blockId&amp;gt;&amp;lt;/link&amp;gt;&amp;lt;/links&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b32-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Completed&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;cancelled&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fca6b31-ff2c-4bf0-a940-4598f1a84da2&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;80&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff0c-4bf0-a940-8091f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_3fca6b31-ff2c-4bf0-a940-4598f1a84da2&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Status&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Cancelled&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;timedout&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;85141fd4-664e-4ae4-93dc-1498f561b6bf&amp;lt;/id&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;30&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;100&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition/&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;/exits&amp;gt;&amp;lt;/block&amp;gt;&amp;lt;block&amp;gt;&amp;lt;id&amp;gt;AD67592A17224391B16344A91DF2978A&amp;lt;/id&amp;gt;&amp;lt;type&amp;gt;stop&amp;lt;/type&amp;gt;&amp;lt;title/&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;862&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;122&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;blockProperties/&amp;gt;&amp;lt;exits/&amp;gt;&amp;lt;/block&amp;gt;&amp;lt;block&amp;gt;&amp;lt;id&amp;gt;1034505DE3D243E28121691B4C930EBA&amp;lt;/id&amp;gt;&amp;lt;type&amp;gt;switch&amp;lt;/type&amp;gt;&amp;lt;title&amp;gt;Authorised&amp;lt;/title&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;156&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;208&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;blockProperties&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;description&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value/&amp;gt;&amp;lt;name&amp;gt;descriptionText&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/blockProperties&amp;gt;&amp;lt;exits&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;default&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;3fbd5931-ff2c-4bf0-a940-4398f1a81da2&amp;lt;/id&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;-112&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;59&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links/&amp;gt;&amp;lt;condition/&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;Authorised&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;2B1E214213DA4530AEDD71DE3EAF3EC4&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;-112&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;20&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links&amp;gt;&amp;lt;link&amp;gt;&amp;lt;id&amp;gt;195782EF49B94E33ADAAC1A2E24B7FDF&amp;lt;/id&amp;gt;&amp;lt;blockId&amp;gt;3CC278F4DE0E418DB69C7C221BA5C6B8&amp;lt;/blockId&amp;gt;&amp;lt;/link&amp;gt;&amp;lt;/links&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_2B1E214213DA4530AEDD71DE3EAF3EC4&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Authorisation&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;true&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;exit&amp;gt;&amp;lt;title&amp;gt;Not Authorised&amp;lt;/title&amp;gt;&amp;lt;id&amp;gt;6BC8181DAE2F4BCCBB7663BCF3D7A1D8&amp;lt;/id&amp;gt;&amp;lt;editable&amp;gt;true&amp;lt;/editable&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;-112&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;40&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;links&amp;gt;&amp;lt;link&amp;gt;&amp;lt;id&amp;gt;DF0E52DC3C0945EA8466D5A549B9929A&amp;lt;/id&amp;gt;&amp;lt;blockId&amp;gt;00740AD1B44B44D7B541F706420915BD&amp;lt;/blockId&amp;gt;&amp;lt;/link&amp;gt;&amp;lt;/links&amp;gt;&amp;lt;condition&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logicaloperator&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond_6BC8181DAE2F4BCCBB7663BCF3D7A1D8&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;conditions&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Authorisation&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;false&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/condition&amp;gt;&amp;lt;/exit&amp;gt;&amp;lt;/exits&amp;gt;&amp;lt;/block&amp;gt;&amp;lt;/blocks&amp;gt;&amp;lt;/scenario&amp;gt;&lt;/Details&gt;&lt;TriggerDetails&gt;&amp;lt;?xml version='1.0' encoding='utf-16le' ?&amp;gt;&amp;lt;BPETrigger xmlns='http://frontrange.com/saas/workflow/Bpe_workflow.xsd'&amp;gt;&amp;lt;id&amp;gt;1805C41BF5424F1CA7BDF13A561EF9F5&amp;lt;/id&amp;gt;&amp;lt;type&amp;gt;trigger&amp;lt;/type&amp;gt;&amp;lt;title/&amp;gt;&amp;lt;layout&amp;gt;&amp;lt;x&amp;gt;0&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;0&amp;lt;/y&amp;gt;&amp;lt;/layout&amp;gt;&amp;lt;blockProperties&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;starttype_block&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Condition&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;starttype&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;contextblock&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;yes&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;created&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;yes&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;updated&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;deleted&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;logical&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;AND&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;cond&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;trigger&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;ServiceReqFulfillmentPlan.Workflow&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;childObjectName&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;ServiceReqFulfillmentPlanAssociatedServiceReq&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;relationshipName&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;ServiceReqFulfillmentPlanType&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Workflow&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;RequestOfferingWFTrigger&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Ready&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;ServiceReqFulfillmentPlan.Workflow&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;childObjectName&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;ServiceReqFulfillmentPlanAssociatedServiceReq&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;relationshipName&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;WorkflowId&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;field&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Equal to&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;operator&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;c221cb1c5b2f42a69920b8f8d2d93736&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;value&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;executiontime_start_block&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;executiontime_start&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;executiontime_end_block&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;No end date&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;executiontime_end&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;       &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;executiontime_end&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;10&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;endnumber_count&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;End by&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;executiontime_end&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;enddate&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;recurrence_block_daily&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;Daily&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;recurrence&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;recurrence_block_weekly&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;       &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;recurrence&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;weekly&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_sunday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_monday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_tuesday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_wednesday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_thursday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_friday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;weekly_saturday&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;recurrence_block_monthly&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;       &amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;recurrence&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;property&amp;gt;&amp;lt;name&amp;gt;day_of_month&amp;lt;/name&amp;gt;&amp;lt;groups&amp;gt;&amp;lt;group&amp;gt;&amp;lt;param&amp;gt;&amp;lt;value&amp;gt;&amp;lt;/value&amp;gt;&amp;lt;name&amp;gt;day_of_month_number&amp;lt;/name&amp;gt;&amp;lt;/param&amp;gt;&amp;lt;/group&amp;gt;&amp;lt;/groups&amp;gt;&amp;lt;/property&amp;gt;&amp;lt;/blockProperties&amp;gt;&amp;lt;exits/&amp;gt;&amp;lt;/BPETrigger&amp;gt;&lt;/TriggerDetails&gt;&lt;ExceptionHandling /&gt;&lt;/WorkflowDefinition&gt;&lt;WorkflowType&gt;&lt;Name&gt;Oh Be Template Request form&lt;/Name&gt;&lt;DisplayName&gt;Oh Be Template Request form&lt;/DisplayName&gt;&lt;ObjectType&gt;ServiceReq&lt;/ObjectType&gt;&lt;Description /&gt;&lt;/WorkflowType&gt;&lt;QuickActions /&gt;&lt;/WorkflowVersionInformation&gt;</WorkflowDefinition>
+  <WorkflowType TypeCode="Object" CLR_Type="HEAT.ServiceCatalog.Models.Workflow.WorkflowTypeDef" FRS_ID="4265afbfc64840bf8f3bcb0d9f9af3eb">
+   <RecId>4265afbfc64840bf8f3bcb0d9f9af3eb</RecId>
+   <CreatedBy>Ben.Haslett</CreatedBy>
+   <CreatedDateTime TypeCode="DateTime">2019-05-12T11:09:40.1330000Z</CreatedDateTime>
+   <LastModBy>Ben.Haslett</LastModBy>
+   <LastModDateTime TypeCode="DateTime">2019-05-12T11:09:40.1330000Z</LastModDateTime>
+   <TypeRecId>4265afbfc64840bf8f3bcb0d9f9af3eb</TypeRecId>
+   <Name>Oh Be Template Request form</Name>
+   <ObjectType>ServiceReq</ObjectType>
+   <Description></Description>
+   <DisplayName>Oh Be Template Request form</DisplayName>
+   <Category>User</Category>
+   <IsInternal TypeCode="Boolean">True</IsInternal>
+  </WorkflowType>
+ </RequestOffering>
+</Offerings>
