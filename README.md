@@ -14,16 +14,24 @@ Key advangates of using ISM as a Self-Service Automation Platform
 * PSHEATAPI makes it trivial to pull User form input into Powershell
 * ISM functions as a System of Record so we (and our auditors) can easily review who did what when 
 
+It's early days for this project any feedback is welcome. It works great for our purposes but probably isn't very portable.
+
 ## Getting Started
 
 ###
 Head over to https://github.com/audaxdreik/PSHEATAPI and the PSHEATAPI module up and running.
 
-Then download and install this module in your PS profile. $env:PSModulePath
+Then download and install the OhBe module in your PS profile. $env:PSModulePath
 
 Import the module file using Import-Module OhBeFrameWork.psm1
 
-Then use the template.ps1 to pull your Service Request Tasks into PowerShell
+Import the Oh Be Template.rox file into Ivanti Service Manager as a New Request Offering note the name. Hook up some tasks and note the name.
+
+Then use the template.ps1 to pull your Service Request Tasks into PowerShell. Use the Names noted in above.
+
+Copy your existing script into the task block (or write a new script)
+
+Create a pass/fail test to see if your script worked.
 
 When the template first runs it'll ask for credentials when it needs them
 * Ivanti Service Manager API account
