@@ -25,9 +25,9 @@ Then download and install the OhBe module in your PS profile. $env:PSModulePath
 
 Import the module file using Import-Module OhBeFrameWork.psm1
 
-Import the Oh Be Template.rox file into Ivanti Service Manager as a New Request Offering note the name. Hook up some tasks and note the name.
+Import the Oh Be OhBeTemplate.rox file into Ivanti Service Manager as a New Request Offering note the name. Hook up some tasks and note the name.
 
-Then use the template.ps1 to pull your Service Request Tasks into PowerShell. Use the Names noted in above.
+Then use the OhBeTemplate.ps1 to pull your Service Request Tasks into PowerShell. Use the Names noted in above.
 
 Copy your existing script into the task block (or write a new script)
 
@@ -41,5 +41,5 @@ When the template first runs it'll ask for credentials when it needs them
 Make sure to review this module well before rolling into production!
 
 ## To Do
-* Upload a Request Offering Template that can be used for quick roll out
 * emailing out of the framework is only supported via O365 as that is our current scenario - feel free to hack something else in.
+* Test Test Test!
