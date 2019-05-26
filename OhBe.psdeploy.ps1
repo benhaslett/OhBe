@@ -1,7 +1,7 @@
-Deploy 'Deploy ServerInfo script' {
+Deploy 'Deploy OhBeFrameWork Module' {
     By Filesystem {
-        FromSource '.\Review-EmailToCaseIncidents.ps1'
-        To '\\maops\c$\scripts\'
+        FromSource '.\OhBeFrameWork.psm1'
+        To '\\maops\c$\windows\system32\WindowsPowerShell\v1.0\Modules\OhBeFrameWork\OhBeFrameWork.psm1'
         Tagged Prod
     }
 }

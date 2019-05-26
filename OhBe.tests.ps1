@@ -1,4 +1,4 @@
-$sut = "Review-EmailToCaseIncidents.ps1"
+$sut = "OhBeFrameWork.psm1"
 
 Describe 'Unit Tests' {
     Context 'Easy Tests' {

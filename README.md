@@ -21,7 +21,7 @@ It's early days for this project any feedback is welcome. It works great for our
 ###
 Head over to https://github.com/audaxdreik/PSHEATAPI and the PSHEATAPI module up and running.
 
-Then download and install the OhBe module in your PS profile. $env:PSModulePath
+Then download and install the OhBe module in your PS profile. $env:PSModulePath (Or See the usage section below for for psake, pester script)
 
 Import the module file using Import-Module OhBeFrameWork.psm1
 
@@ -39,6 +39,39 @@ When the template first runs it'll ask for credentials when it needs them
 * O365 email account to email out our reports
 
 Make sure to review this module well before rolling into production!
+
+
+## Usage
+
+A ```psake``` script has been created to manage the various operations related to testing and deployment of ```OhBeFrameWork.psm1```
+
+### Build Operations
+
+
+* Test the script via Pester and Script Analyzer  
+```powershell
+
+.\build.ps1
+```
+    
+* Test the script with Pester only  
+```powershell
+
+.\build.ps1 -Task Test
+```
+    
+* Test the script with Script Analyzer only  
+```powershell
+
+.\build.ps1 -Task Analyze
+```
+    
+* Deploy the script via PSDeploy  
+```powershell
+
+.\build.ps1 -Task Deploy
+```
+
 
 ## To Do
 * emailing out of the framework is only supported via O365 as that is our current scenario - feel free to hack something else in.

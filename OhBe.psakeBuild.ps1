@@ -1,11 +1,11 @@
 properties {
-    $script = "./Review-EmailToCaseIncidents.ps1"
+    $script = "./OhBeFrameWork.psm1"
 }
 
 task default -depends Analyze, Test
 
 task Analyze {
-    $saResults = Invoke-ScriptAnalyzer -Path "Review-EmailToCaseIncidents.ps1" -Severity @('Error', 'Warning') -Recurse -Verbose:$true
+    $saResults = Invoke-ScriptAnalyzer -Path $script  -Severity @('Error', 'Warning') -Recurse -Verbose:$true
     if ($saResults) {
         $saResults | Format-Table  
         Write-Error -Message 'One or more Script Analyzer errors/warnings where found. Build cannot continue!'        
@@ -13,7 +13,7 @@ task Analyze {
 }
 
 task Test {
-    $testResults = Invoke-Pester -Path "./review-emailtocaseincidents.tests.ps1" -PassThru
+    $testResults = Invoke-Pester -Path $script -PassThru
     if ($testResults.FailedCount -gt 0) {
         $testResults | Format-List
         Write-Error -Message 'One or more Pester tests failed. Build cannot continue!'
@@ -21,5 +21,5 @@ task Test {
 }
 
 task Deploy -depends Analyze, Test {
-    Invoke-PSDeploy -Path '.\review-emailtocaseincidents.psdeploy.ps1' -Force -Verbose:$VerbosePreference
+    Invoke-PSDeploy -Path $script -Force -Verbose:$VerbosePreference
 }
