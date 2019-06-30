@@ -72,6 +72,8 @@ A ```psake``` script has been created to manage the various operations related t
 .\build.ps1 -Task Deploy
 ```
 
+## Important Note on Deployment!
+the Connect-ohbeframework function is host aware and will only connect to the production tennant if it's running on the Prod Server MAOPS! This is supposed to stop testers from spamming users... It won't work but we tried. Really we should have script that breaks all the user emails in Staging. 
 
 ## To Do
 * emailing out of the framework is only supported via O365 as that is our current scenario - feel free to hack something else in.
