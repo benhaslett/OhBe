@@ -52,11 +52,23 @@ Catch{
         return        
     }
 }
-try{
-    Copy-Item OhBeFrameWork.psm1  C:\Windows\System32\WindowsPowerShell\v1.0\Modules\OhBeFramework\OhBeFrameWork.psm1
+Try{
+    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/benhaslett/OhBe/master/OhBeFrameWork.psm1" -OutFile c:\scripts\OhBeFrameWork.psm1 -ErrorAction Stop
 }
-catch{
-    write-output "Couldn't install OhBeFramework module. Did you run as admin?"
+Catch{
+    write-output "Couldn't download ohbeframework Did you run as admin?"
     return
 }
+
+try{
+    copy-item c:\scripts\OhBeFrameWork.psm1 C:\Windows\System32\WindowsPowerShell\v1.0\Modules\OhBeFramework\OhBeFrameWork.psm1 -Recurse -ErrorAction Stop
+}
+Catch{
+    write-output "Couldn't install ohbe Did you run as admin?"
+    return
+}
+
+
+Get-ChildItem C:\Windows\System32\WindowsPowerShell\v1.0\Modules\OhBeFramework\OhBeFrameWork.psm1 | Select-Object LastWriteTime
+
 import-Module OhBeFrameWork
