@@ -207,11 +207,11 @@ function Get-OhBeTasks {
     }
 
     If(($tasks| Where-Object {$_.Owner -eq 'oh.be'}).status -contains 'Assigned'){
-        Write-OhBeLog -log $log -status ("Still Found " + ($tasks | where-object status -eq Assigned).count + " Not all tasks are done") -user $object.createdby -RequestNumber $ServiceReqNumber
+        Write-OhBeLog -log $log -status ("Still Found " + ($tasks | where-object status -eq Assigned).count + " tasks Not all tasks are done") -user $object.createdby -RequestNumber $ServiceReqNumber
         $tasks | Where-Object {$_.status -eq 'Assigned' -and $_.Owner -eq 'oh.be'} #| Select-Object -first 1
     }
     else{
-        if((($tasks<#| Where-Object {$_.Owner -eq 'oh.be'}#>).status -ne "Completed").count -eq 0 ){
+        if( @($tasks | Where-Object status -ne "Completed").count -eq 0 ){
             $data = @(
                 @{name = 'Status'; Value = 'Fulfilled'}
             )
